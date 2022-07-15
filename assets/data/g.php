@@ -2,7 +2,7 @@
 
 echo "hello";
 
-/*$name = $_POST["name"];
+$name = $_POST["name"];
 $email = $_POST["email"];
 $desc = $_POST["Desc"];
 
@@ -16,5 +16,5 @@ if (filter_var($email, FILTER_VALIDATE_EMAIL)) {
 
 }
 
-*/
+
 ?>
