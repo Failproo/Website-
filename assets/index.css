@@ -39,6 +39,11 @@ header {
   transition: .3s;
 }
 
+header #menu-icon {
+  margin: 0;
+  padding: 0;
+}
+
 .logo {
   color: var(--text-color);
   font-size: 1.8rem;
@@ -66,6 +71,7 @@ span {
 }
 
 #menu-icon {
+  margin: 0px 0px 0px;
   font-size: 28px;
   z-index: 1001;
   cursor: pointer;
@@ -277,23 +283,20 @@ section {
   margin: 100px auto;
 }
 
-.cta h4 {
+.cta p {
   color: var(--text-color);
   font-size: 1.6rem;
   font-weight: 300;
   margin-bottom: 30px;
 }
 
-.cta h2 {
-  color: var(--main-color);
+
+.cta span {
+  
+color: var(--main-color);
   font-size: 4rem;
   font-weight: 300;
   margin-bottom: 40px;
-}
-
-.cta span #o{
-  
-  color: var(--main-color);
   
 }
 
@@ -518,29 +521,36 @@ form .send-btn {
   .cards {
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    grid-gap: 50px;
     margin: 25px auto;
     
+    
   }
+  
+  .card {
+     
+     
+     overflow: hidden;
+  }
+  
   
   .card:hover {
     transform: translateY(-15px);
     box-shadow: 0 15px 30px 0 rgb(0 0 0/70%) ;
   }
   
-  .article {
-    
+  .content {
     display: block;
     margin-top: 20%;
   }
-  .article h4 {
+  .content h4 {
     color: var(--Second-main-color);
     padding: 20px ;
     font-size: var(--h2-font);
   }
   
   
-  .article p {
+  .content p {
+    overflow: hidden;
     max-width: 470px;
   font-size: var(--p-font + 0.5rem);
   line-height: 2rem;
