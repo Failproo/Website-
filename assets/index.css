@@ -547,7 +547,9 @@ form .send-btn {
     padding: 20px ;
     font-size: var(--h2-font);
   }
-  
+  .Con {
+    display: flex;
+  }
   
   .content p {
     overflow: hidden;
