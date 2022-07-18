@@ -105,7 +105,7 @@ section {
   border-radius: 360px;
 }
 
-.home-text h5 {
+.home-text p {
   color: var(--text-color);
   font-size: 25px;
   font-weight: 500;
@@ -404,14 +404,16 @@ form .send-btn {
   transition: ease all 0.35s;
 }
 
-.copyright {
+.credits footer {
   text-align: center;
-  padding: 30px;
-  color: var(--Second-main-color);
+  padding: 0 auto;
+  color: var(--text-color);
   background: #0b0b13;
-  margin-top: 3rem;
   line-height: 1.8rem;
 }
+
+
+
 
 @media (max-width: 1430px) {
   header {
