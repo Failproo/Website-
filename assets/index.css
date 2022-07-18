@@ -182,7 +182,8 @@ section {
   margin: 0 0 30px;
 }
 
-.about-text #Des {
+ #Des {
+  text-decoration: none;
   color: var(--text-color);
   margin-bottom: 0.5rem;
   font-weight: 500;
@@ -191,6 +192,13 @@ section {
   max-width: 470px;
   margin-bottom: 2rem;
 }
+
+ #Des a {
+  text-decoration: none;
+  background: var(--bg-color);
+color: var(--main-color);
+}
+
 
 .about-text p {
   max-width: 570px;
