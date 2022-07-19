@@ -440,6 +440,12 @@ form .send-btn {
    height: 70vh;
  }
  
+ .content b {
+   padding: 20px;
+   justify-content: space-between;
+ }
+ 
+ 
 }
 
 @media (max-width: 830px ) {
@@ -536,6 +542,11 @@ form .send-btn {
     
     
   }
+ 
+  .content b {
+   padding: 20px;
+ }
+  
   
   .card {
      
@@ -553,7 +564,7 @@ form .send-btn {
     display: block;
     margin-top: 20%;
   }
-  .content h4 {
+  .content b {
     color: var(--Second-main-color);
     padding: 20px ;
     font-size: var(--h2-font);
