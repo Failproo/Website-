@@ -597,8 +597,16 @@ form .send-btn {
   .img-sec img {
     height: 100vh;
     width: 200vw;
+    height: fit-content;
+    width: fit-content;
     overflow: hidden;
     object-fit: cover;
+    z-index: 20;
+  }
+  
+  .content hr {
+    border: 1px solid var(--main-color);
+ margin-top: 20px;
   }
   
   
