@@ -10,6 +10,9 @@
 }
 
 :root {
+  
+  touch-action: pan-x pan-y; height: 100%;
+  
   --bg-color: #10101a;
   --main-color: #2fbf71;
   --Second-main-color: #ffffffcc;
@@ -54,6 +57,8 @@ span {
   color: var(--main-color);
 }
 
+
+
 .navbar {
   display: flex;
 }
@@ -92,10 +97,12 @@ section {
   align-items: center;
 }
 
-.home-text span {
+.home-text span  {
   position: relative;
-  color: rgb(195,0,0)
+  color: rgba(22,211,0,0.762);
 }
+
+
 
 .home-img img {
 
@@ -581,5 +588,20 @@ form .send-btn {
     font-weight: 500;
   }
   
+  .img-sec {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  
+  
+  .img-sec img {
+    height: 100vh;
+    width: 200vw;
+    overflow: hidden;
+    object-fit: cover;
+  }
+  
+  
+
   
 }
